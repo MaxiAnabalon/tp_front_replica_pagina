@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    tab-size: 2;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    color: rgba(255, 255, 255, 0.948); 
+    background-color: #181419;   
+}
+
+/*Estilos del titulo*/
+.titulo {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url("../imagenes/banner_titulo.jpg");
+    height: 90vh;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo h1{
+    margin: 0;
+    padding-top: 0.7rem;
+    padding-bottom: 1rem;
+    font-size: 3.5vw;
+}
+.titulo h2{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.botonlink{ 
+    background-color: #9f3647; 
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s
+}
+
+/*Estilos del heard*/
+header {
+    background-color: #9f3647;
+    color: #ffffff;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav {     
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 1.5rem 0;
+}
+
+.nav a{
+    background-color: #9f3647;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0rem 2rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav ul li{
+    padding-left: 4rem;
+}
+
+.nav ul li:nth-child(3) a{
+    background-color: #181419;
+    padding: 0.25rem 0.5rem;
+} 
+
+.nav div span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*Estilos del scroll*/
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;               
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #181419;        
+}  
+body::-webkit-scrollbar-thumb{
+    background-color: #9f3647; 
+    border: 1.5px soli #181419;
+    border-right: 2px solid #181419;
+}
+
+
+
+
+/*Estilos de fin de pagina*/
+
+footer {
+    background-color: #9f3647;
+    color: #ffffff;
+    height: 7vw;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.fin-pagina ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+.fin-pagina ul li{
+    padding: 2.5vw 0.4vw 0vw 0.4vw;
+    list-style: none;
+    text-decoration: none; 
+}
+.fin-pagina a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9vw;
+    font-weight: 700;
+}
+.admin{
+    background-color: #181419; 
+    border-radius: 5px;
+    padding: 0.3vw 0.2vw;  
+}
